@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "998634372445",
+    "firebase_url": "https://my-app-66254.firebaseio.com",
+    "project_id": "my-app-66254",
+    "storage_bucket": "my-app-66254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998634372445:android:6000be64a52fdddfc27cb4",
+        "android_client_info": {
+          "package_name": "com.game.gmailapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998634372445-8perkra98rmt0oodofaslvnjh4ug2oog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC8nTpGJwdBXjamyAFXJ_MFyeFNywpgdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998634372445-8perkra98rmt0oodofaslvnjh4ug2oog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
