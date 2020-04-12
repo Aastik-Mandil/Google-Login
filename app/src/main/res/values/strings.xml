@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">GmailApp</string>
-    <string name="web_client_id">998634372445-8perkra98rmt0oodofaslvnjh4ug2oog.apps.googleusercontent.com</string>
+<!--    <string name="web_client_id">998634372445-8perkra98rmt0oodofaslvnjh4ug2oog.apps.googleusercontent.com</string>-->
+
+    <string name="facebook_app_id">593431254601764</string>
+    <string name="fb_login_protocol_scheme">fb593431254601764</string>
+
 </resources>

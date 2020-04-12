@@ -12,5 +12,9 @@
         android:id="@+id/googleBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
