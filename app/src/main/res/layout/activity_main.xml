@@ -6,15 +6,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleBtn"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_margin="7dp"
+        android:layout_height="50dp"/>
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_margin="7dp"
+        android:layout_height="50dp"/>
 
 </LinearLayout>

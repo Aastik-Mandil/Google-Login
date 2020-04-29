@@ -4,6 +4,7 @@
     package="com.game.gmailapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <dist:module dist:instant="true" />
 
@@ -14,18 +15,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DoubtInfoActivity" />
+        <activity android:name=".FAQsActivity" />
+        <activity android:name=".WhySolarActivity" />
+        <activity android:name=".TestimonialsActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".OffersActivity" />
+        <activity android:name=".ReferralsActivity" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".ReferFriendActivity" />
+        <activity android:name=".OperationalActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".ProfileActivity" />
-
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <meta-data android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
     </application>
 
 </manifest>
